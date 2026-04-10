@@ -1,0 +1,17 @@
+[2026-04-10T22:06:48Z] === ENRICH ITERATION 1 START | repo=ljharb/qs sha=a67173ec ===
+[2026-04-10T22:06:48Z] [iter=1] PHASE START: enrich repo=ljharb/qs sha=a67173ec runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/a67173ec-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/a67173ec4573acd0b00037e630a34c9a53554886.nq.gz
+[2026-04-10T22:07:02Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-04-10T22:07:04Z] [iter=1] AST store loaded triples=275378 load_secs=2 mem_mb=447 MB
+[2026-04-10T22:07:04Z] [iter=1] Step 2: Finding LSP targets mem_mb=447 MB
+[2026-04-10T22:07:04Z] [iter=1] LSP targets found call_sites=2375 imports=0 extends=0 implements=0 secs=0
+[2026-04-10T22:07:04Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=447 MB
+[2026-04-10T22:07:05Z] [iter=1] Position index built positions=19708 nodes_with_types=22303 secs=1 mem_mb=447 MB
+[2026-04-10T22:07:05Z] [iter=1] Step 3: Starting LSP resolution mem_mb=447 MB already_completed_types=[] already_completed_files=0
+[2026-04-10T22:07:05Z] [iter=1] Resolving target type target_type=call_site count=2375
+[2026-04-10T22:08:28Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.7 files_done=2 resolved=16 errors=811 current=dist/qs.js
+[2026-04-10T22:09:16Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.5 files_done=3 resolved=76 errors=1279 current=test/parse.js
+[2026-04-10T22:10:27Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.7 files_done=4 resolved=91 errors=1987 current=lib/utils.js
+[2026-04-10T22:10:43Z] [iter=1] Target type resolved target_type=call_site resolved=109 errors=2141 secs=218 mem_mb=447 MB
+[2026-04-10T22:10:46Z] [iter=1] Step 5: Writing final enrichment file triples=26207
+[2026-04-10T22:10:47Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/a67173ec4573acd0b00037e630a34c9a53554886.nq.gz size_kb=405
+[2026-04-10T22:10:47Z] [iter=1] PHASE END: enrich elapsed_s=239 elapsed_min=4.0 total_triples=26207

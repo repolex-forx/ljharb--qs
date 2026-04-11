@@ -1,0 +1,15 @@
+[2026-04-11T16:53:17Z] === ENRICH ITERATION 1 START | repo=ljharb/qs sha=bf93c571 ===
+[2026-04-11T16:53:17Z] [iter=1] PHASE START: enrich repo=ljharb/qs sha=bf93c571 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/bf93c571-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/bf93c5719c88e4c7ace17d747c62844988a65018.nq.gz
+[2026-04-11T16:53:26Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-04-11T16:53:28Z] [iter=1] AST store loaded triples=152206 load_secs=1 mem_mb=279 MB
+[2026-04-11T16:53:28Z] [iter=1] Step 2: Finding LSP targets mem_mb=279 MB
+[2026-04-11T16:53:28Z] [iter=1] LSP targets found call_sites=1451 imports=0 extends=0 implements=0 secs=0
+[2026-04-11T16:53:28Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=279 MB
+[2026-04-11T16:53:28Z] [iter=1] Position index built positions=10732 nodes_with_types=12309 secs=1 mem_mb=279 MB
+[2026-04-11T16:53:28Z] [iter=1] Step 3: Starting LSP resolution mem_mb=279 MB already_completed_types=[] already_completed_files=0
+[2026-04-11T16:53:28Z] [iter=1] Resolving target type target_type=call_site count=1451
+[2026-04-11T16:54:15Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.0 files_done=3 resolved=39 errors=791 current=lib/utils.js
+[2026-04-11T16:54:45Z] [iter=1] Target type resolved target_type=call_site resolved=70 errors=1315 secs=77 mem_mb=279 MB
+[2026-04-11T16:54:47Z] [iter=1] Step 5: Writing final enrichment file triples=14227
+[2026-04-11T16:54:48Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/bf93c5719c88e4c7ace17d747c62844988a65018.nq.gz size_kb=216
+[2026-04-11T16:54:48Z] [iter=1] PHASE END: enrich elapsed_s=90 elapsed_min=1.5 total_triples=14227

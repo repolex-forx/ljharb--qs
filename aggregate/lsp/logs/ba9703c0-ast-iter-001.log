@@ -1,0 +1,7 @@
+[2026-04-11T04:49:56Z] === AST ITERATION 1 START | repo=ljharb/qs sha=ba9703c0 ===
+[2026-04-11T04:49:56Z] [iter=1] PHASE START: ast repo=ljharb/qs sha=ba9703c0
+[2026-04-11T04:49:56Z] [iter=1] Building AST aggregate chunks
+[2026-04-11T04:50:17Z] [iter=1] AST chunks built count=1 triples=224857
+[2026-04-11T04:50:17Z] [iter=1] AST .complete marker written path=/home/runner/work/forx/forx/storage/aggregate/ast/ba9703c0340dfdeb73cb4387d6ab32c37768aa5b/.complete
+[2026-04-11T04:50:17Z] [iter=1] PHASE END: ast elapsed_s=21 elapsed_min=0.3
+[2026-04-11T04:50:17Z] [iter=1] Wrote .next-action.json next_action=enrich path=/home/runner/work/forx/forx/storage/aggregate/.next-action.json

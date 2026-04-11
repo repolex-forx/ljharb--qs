@@ -761,8 +761,9 @@
     {
       "@id": "https://repolex.ai/r/ljharb/qs/commit/34af57edde61639054ea7b38fdfce050cffdab29",
       "git:hexsha": "34af57edde61639054ea7b38fdfce050cffdab29",
-      "repolex:parseStatus": "pending",
-      "git:tagName": "v6.6.0"
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "v6.6.0",
+      "repolex:parsedAt": "2026-04-11T19:10:29.619250+00:00"
     },
     {
       "@id": "https://repolex.ai/r/ljharb/qs/commit/4cc653c08c583c0b39e2eea0bf1cd2226ac5ec51",
